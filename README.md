@@ -40,28 +40,15 @@ brew install readline
 
 💻 Usage Examples
 $ ./minishell
-🐚 minishell$ echo "Hello, World!"
+echo "Hello, World!"
 Hello, World!
 
-🐚 minishell$ export NAME=WAHIB
-🐚 minishell$ echo "Hi $NAME"
+export NAME=WAHIB
+echo "Hi $NAME"
 Hi WAHIB
 
-🐚 minishell$ ls -l | grep minishell
+ls -l | grep minishell
 -rwxr-xr-x  1 aj  staff  42000 Aug 20 22:10 minishell
-
-🧪 Testing
-
-Run a few commands to check everything works:
-
-./minishell
-🐚 minishell$ echo Hello
-Hello
-
-🐚 minishell$ ls | wc -l
-42
-
-🐚 minishell$ cat < infile | grep minishell > outfile
 
 📌 Authors
 
@@ -74,3 +61,4 @@ Abdeljalil-wahib — [1337 Student]
 GNU Readline
 Bash Manual
 1337 Coding School
+
